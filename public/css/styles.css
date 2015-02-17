@@ -37,6 +37,7 @@ table {
 
 /* Screen Sizes */
 /* Colors */
+/*------------global------------*/
 body {
   font-family: 'Droid Serif', serif;
   background-color: #49B5BB; }
@@ -116,6 +117,9 @@ aside {
 @media only screen and (max-width: 640px) {
   body {
     background-color: #ECF8E7; }
+  .row {
+    margin-top: 0;
+    margin-bottom: 0; }
   .row .nav {
     display: none; }
   h1 {
@@ -159,10 +163,9 @@ aside {
     margin-top: 30px; }
   .row {
     background-color: #ECF8E7;
-    margin: 0 80px; }
+    margin: 0 80px;
+    border-bottom: 1px solid #49B5BB; }
   h1 {
-    border-top: 1px solid #49B5BB;
-    border-bottom: 1px solid #49B5BB;
     padding-bottom: 30px;
     padding-top: 30px; }
   .footer_links {
@@ -190,7 +193,12 @@ aside {
   .left {
     float: right;
     box-sizing: border-box; }
+    .left p {
+      margin-top: 22px;
+      padding-right: 30px; }
   .right {
     width: 30%;
     float: left;
-    box-sizing: border-box; } }
+    box-sizing: border-box; }
+  .footer_links {
+    border: none; } }
